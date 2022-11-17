@@ -53,7 +53,7 @@ footer a img:hover{
     cursor: pointer;
 }
 
-header{
+.navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +81,7 @@ header{
     border-bottom: 3px solid hsl(136, 65%, 51%) ;
 }
 
-header a{
+.navbar a{
     color: hsl(233, 8%, 62%);
 }
 
@@ -303,11 +303,11 @@ body{
         height: 125%;
     }
 
-    header #center-row{
+    .navbar #center-row{
         display: none;
     }
 
-    header #gradient-btn{
+    .navbar #gradient-btn{
         display: none;
     }
 
