@@ -48,6 +48,10 @@ footer a{
     height: 100%;
 }
 
+footer a:hover{
+  color: hsl(136, 65%, 51%)
+}
+
 footer a img:hover{
     filter: invert(10%) sepia(60%) saturate(700%) hue-rotate(105deg) brightness(100%) contrast(60%);
     cursor: pointer;
@@ -76,9 +80,12 @@ footer a img:hover{
 .nav-item:hover{
     height: 100%;
     align-items: center;
-    color:hsl(233, 26%, 24%);
     cursor: pointer;
     border-bottom: 3px solid hsl(136, 65%, 51%) ;
+}
+
+.nav-item a:hover{
+  color:hsl(233, 26%, 24%);
 }
 
 .navbar a{
